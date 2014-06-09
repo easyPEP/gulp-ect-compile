@@ -18,11 +18,11 @@ module.exports = function (opt, ectOpt) {
       try {
         ect(ectOpt).compiler(opt);
       } catch (e) {
-        gutil.log(gutil.colors.red('Error gulp-ect-compiler: ' + e.message));
+        gutil.log(gutil.colors.red('Error gulp-ect-compile: ' + e.message));
       }
       callback(null, file);
     } catch (e) {
-      gutil.log(gutil.colors.red('Error Locals gulp-ect-compiler: ' + e.message));
+      gutil.log(gutil.colors.red('Error Locals gulp-ect-compile: ' + e.message));
     }
   });
 };

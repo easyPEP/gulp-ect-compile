@@ -1,9 +1,9 @@
 {
-  "name": "gulp-ect-compiler",
+  "name": "gulp-ect-compile",
   "version": "0.0.1",
   "description": "Gulp plugin to compile ect.js templates.",
   "license": "MIT",
-  "repository": "https://github.com/easyPEP/gulp-ect-compiler",
+  "repository": "https://github.com/easyPEP/gulp-ect-compile",
   "author": {
     "name": "Kalle Saas",
     "email": "kalle@easypep.de",
